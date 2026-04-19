@@ -143,6 +143,14 @@ video {
   /* font-style: italic; */
 }
 
+.video-section img {
+  width: 100%;
+}
+
+.analysis-description {
+  margin-top: 1rem;
+}
+
 /* Special Sections */
 .feedback-request {
   background-color: rgba(74, 144, 226, 0.05);

@@ -195,6 +195,58 @@
       </article>
 
       <div class="divider"></div>
+
+      <h2>Computational Analysis</h2>
+      <p>
+        To better understand the nature of the reconstructed film in relation to
+        the original, we developed a
+        <b>suite of computational metrics</b> measuring structural, perceptual,
+        colour, and temporal differences between the two. Below are
+        representative overviews from the interactive analysis explorer.
+      </p>
+
+      <p class="analysis-description">
+        <b>Web Interface and Divergence Plot.</b> This view plots every frame in
+        the film by its composite divergence score: values closer to 0 indicate
+        greater similarity, while values closer to 1 indicate greater
+        divergence. Clicking any point opens a side-by-side or overlay
+        comparison of the two frames.
+      </p>
+      <p>
+        The quantitative analysis confirms that the reconstruction is a faithful
+        reproduction but not an exact copy: <b>40.7%</b> of frames are a strong
+        match to the original, and <b>16.8%</b> are near-identical.
+      </p>
+      <article class="video-section">
+        <img
+          src="media/Every-Frame-Divergence-and-UI.png"
+          class="analysis-graph"
+        />
+      </article>
+
+      <p class="analysis-description">
+        <b>Divergence Plot Detail.</b>
+        Zooming in on the initial Red Room scene (where Scottie first spies on
+        Madeleine) reveals the rhythm of the reconstruction in relation to the
+        original: converging at segment endpoints and diverging between them.
+      </p>
+      <article class="video-section">
+        <img src="media/Red-Room-Focus_02.png" class="analysis-graph" />
+      </article>
+
+      <p class="analysis-description">
+        <b> Intra-Segment Divergence.</b>
+        This measures average perceptual divergence across the timeline of
+        individual segments, revealing a consistent U-shape: greatest similarity
+        at the keyframe anchors, greatest divergence at the midpoint — exactly
+        what we’d expect for first-last-frame interpolation.
+      </p>
+      <article class="video-section">
+        <img src="media/intra-segment-comparison.png" class="analysis-graph" />
+      </article>
+
+      <div class="divider"></div>
+
       <section class="feedback-request">
         <h2>Feedback Request</h2>
         <p>
